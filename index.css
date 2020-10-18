@@ -1,0 +1,59 @@
+body {
+    background-color: peru;
+    color:whitesmoke;
+}
+
+.js-weather {
+    display: inline-block; 
+    width: 95%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.js-clock {
+    font-size: 70px;
+    text-align: center;
+}
+
+input[type="text"]
+{
+    font-size: 24px;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing,
+.js-toDoForm {
+    display: block;
+    font-size: 30px;   
+    text-align: center;  
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
